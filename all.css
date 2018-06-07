@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+}
+section {
+  margin: 0 150px 20px 150px;
+}
+h2 {
+  color: #F98A5F;
+  padding: 60px 0 20px 0;
+}
+h4 {
+  margin-bottom:0;
+}
+p {
+  line-height: 1.6;
+  font-weight: lighter;
+}
+a {
+  text-decoration: none;
+  color: #F98A5F;
+}
+ul {
+  list-style:none;
+  padding-left:0;
+  margin-top:0;
+}
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  width: 700px;
+}
+::selection {
+  background-color: #F8E1B4;
+}
+.tab{
+  text-align: left;
+  text-indent: 2em;
+}
+.left{
+  text-align: left;
+}
+.resume{
+  border-bottom: 1px solid #775BA3;
+  margin-top: 20px;
+  text-align: left;
+}
+.resume img {
+  margin: 0 20px 0 50px;
+  width: 250px;
+}
+.resume td {
+  vertical-align: top;
+}
+
+header {
+  height: 350px;
+  top: 0;
+  background-color: #91C5A9;
+  text-transform: uppercase;
+}
+header nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  background-color: #91C5A9;
+  z-index: 500;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+header nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+header nav a:hover {
+  color: gray;
+}
+header h1 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 50px 0;
+  clear: both;
+  padding-top: 150px;
+}
+header h1 span {
+  padding: 0.2em 0.5em;
+  border: 10px white solid;
+}
+
+footer {
+  padding: 20px;
+  background-color: #91C5A9;
+  color: white;
+  font-weight: normal;
+}
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+details {
+  border-bottom: 1px solid #775BA3;
+  margin-top: 20px;
+}
+summary {
+  outline:none;
+  margin-bottom: 20px;
+  text-align: left;
+}
